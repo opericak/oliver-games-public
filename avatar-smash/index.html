@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avatar Smash</title>
+  <script type="module" crossorigin src="./assets/index-nmYDC2Op.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BoXZ_bTL.css">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+</head>
+<body>
+  <main>
+    <canvas id="stage" width="960" height="540"></canvas>
+    <button id="end" class="small" hidden>End battle</button>
+
+    <section id="select">
+      <h1>Avatar Smash</h1>
+      <div class="cols">
+        <div class="col">
+          <h2>Player 1 <button id="cpu1" class="small"></button><button id="lv1" class="small"></button></h2>
+          <div id="p1list" class="list"></div>
+          <div id="a1" class="allies"></div>
+        </div>
+        <div class="col">
+          <h2>Player 2 <button id="cpu" class="small"></button><button id="lv2" class="small"></button></h2>
+          <div id="p2list" class="list"></div>
+          <div id="a2" class="allies"></div>
+        </div>
+      </div>
+      <div id="stages" class="allies"></div>
+      <button id="fight" class="big">FIGHT!</button>
+      <p class="hint">P1: <b>A D</b> move, <b>W</b> jump (twice!), <b>S</b> drop down, <b>F</b> hit, <b>G</b> special<br />
+        P2: <b>Arrow keys</b> move and jump, <b>.</b> hit, <b>/</b> special</p>
+    </section>
+
+    <section id="over" hidden>
+      <h2 id="winner"></h2>
+      <div class="row">
+        <button id="rematch" class="big">Rematch</button>
+        <button id="again">Pick fighters</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
