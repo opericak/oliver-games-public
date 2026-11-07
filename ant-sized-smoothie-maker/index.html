@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ant-Sized Smoothie Maker</title>
+  <script type="module" crossorigin src="./assets/index-BK2VKX5X.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DWVWQAvm.css">
+</head>
+<body>
+  <main class="card">
+    <div id="stage"></div>
+    <section id="haul-bar" class="haul-bar" hidden>
+      <span id="haul-text"></span>
+      <button id="haul-free" class="link-btn">Back to free mode</button>
+    </section>
+    <section id="yard-bar" class="yard-bar">
+      <span id="adventure-text"></span>
+      <span>
+        <button id="yard-done" class="link-btn">I'm done</button>
+        <button id="yard-leave" class="link-btn">Back to the room</button>
+      </span>
+    </section>
+    <section class="mixture-bar">
+      <span>Current Blend Mixture: <span id="mixture-text"></span></span>
+      <button id="empty-blender" class="link-btn">Empty Blender (0 items)</button>
+    </section>
+    <section id="pills" class="pills"></section>
+    <footer class="actions">
+      <button id="deposit" class="act blue">Deposit Held Item 🧺</button>
+      <button id="blend" class="act green">Activate Blender</button>
+      <button id="drink" class="act yellow">Drink Smoothie 🏆</button>
+      <button id="give-queen" class="act yellow">Give to Queen 👑</button>
+      <button id="yard-btn" class="act blue">Go to the Yard 🌿</button>
+      <button id="pond-btn" class="act blue">Go to the Pond 🐸</button>
+      <button id="wasp-btn" class="act blue">Wasp Room 🐝</button>
+      <button id="brood-btn" class="act blue">Broodmother Den 🕷️</button>
+      <button id="mantis-btn" class="act blue">Mantis Grove 🦗</button>
+      <button id="mode-btn" class="act blue">Survival Mode 🏕️</button>
+      <button id="bag-btn" class="act gray">My Bag 🧺 (0)</button>
+      <button id="bag-empty" class="act gray">Empty Bag 🗑️</button>
+      <button id="cookbook-btn" class="act gray">Cookbook 📖</button>
+      <button id="clear" class="act gray">Clear</button>
+    </footer>
+    <p class="help">← → or A D to walk · ↑ W or Space to jump · E to grab or deposit · P to pause</p>
+  </main>
+  <dialog id="cookbook" class="cookbook"></dialog>
+  <dialog id="yard-results" class="cookbook"></dialog>
+</body>
+</html>
