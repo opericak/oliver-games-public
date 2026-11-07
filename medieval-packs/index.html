@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Packs</title>
+  <script type="module" crossorigin src="./assets/index-eTlqJ0do.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B68naxne.css">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+</head>
+<body>
+  <main class="room">
+    <h1 id="title">Medieval Pack</h1>
+    <nav class="modes" id="modes" aria-label="Choose what to do">
+      <button id="mode-packs" class="on">🎁 Open packs</button>
+      <button id="mode-sandbox">🎨 Sandbox</button>
+    </nav>
+    <nav class="packs" id="packs" aria-label="Choose a pack"></nav>
+
+    <div id="packs-view">
+      <p class="sub">Click the pack to open it!</p>
+
+      <section class="stage" id="stage">
+        <div class="reveal" id="reveal" hidden>
+          <div class="pic" id="pic"></div>
+          <div class="name" id="name"></div>
+          <div class="chance" id="chance"></div>
+        </div>
+        <button class="pack" id="pack" aria-label="Open a pack">
+          <span class="crown" id="crown">🏰</span>
+          <span class="label" id="label">Medieval</span>
+          <span class="tap">Open!</span>
+        </button>
+      </section>
+
+      <p class="count" id="count">Packs opened: 0</p>
+
+      <h2>Your characters <span id="found"></span></h2>
+      <ul class="shelf" id="shelf"></ul>
+    </div>
+
+    <div id="sandbox-view" hidden>
+      <p class="sub">Click a character below to add it, or type some words. Drag anything to move it. Click its ✕ or drag it down to the bin under the picture to take it off.</p>
+      <div class="scenes" id="scenes" aria-label="Choose a background"><span class="scenes-label">Background:</span></div>
+      <div class="board" id="board">
+        <div class="scene" id="scene"></div>
+      </div>
+      <div class="tools"><span id="board-count"></span><div class="trash" id="trash" title="Drag a character here to take it off">🗑️ <span>Drop here to take off</span></div><button id="clear">Clear all</button></div>
+      <div class="sizebar" id="sizebar">
+        <span class="scenes-label">Size of the picked one:</span>
+        <button id="size-down" aria-label="Smaller">−</button>
+        <input id="size-range" type="range" min="40" max="300" step="5" value="100" aria-label="Size" disabled />
+        <button id="size-up" aria-label="Bigger">+</button>
+        <span id="size-label">pick something first</span>
+      </div>
+      <div class="sizebar" id="turnbar">
+        <span class="scenes-label">Turn the picked one:</span>
+        <button id="turn-left" aria-label="Turn left">↺</button>
+        <input id="turn-range" type="range" min="-180" max="180" step="5" value="0" aria-label="Turn" disabled />
+        <button id="turn-right" aria-label="Turn right">↻</button>
+        <span id="turn-label">pick something first</span>
+      </div>
+      <div class="texttools" id="texttools">
+        <span class="scenes-label">Words:</span>
+        <input id="text-input" type="text" maxlength="80" placeholder="Type something..." autocomplete="off" aria-label="Words to put on the screen" />
+        <span class="sizes" id="text-sizes"><button data-size="S">Small</button><button data-size="M" class="on">Medium</button><button data-size="L">Big</button></span>
+        <span class="colors" id="text-colors" aria-label="Choose a color"></span>
+        <button id="text-bubble" aria-pressed="false">💬 Speech bubble</button>
+        <button id="text-add">Add words</button>
+      </div>
+      <h2>Add to the screen <span class="muted">(you don't need to have them)</span></h2>
+      <div class="tray" id="tray"></div>
+    </div>
+  </main>
+</body>
+</html>
