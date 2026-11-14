@@ -8,6 +8,10 @@
     "title": "Avatar Smash"
   },
   {
+    "id": "blocked",
+    "title": "Blocked"
+  },
+  {
     "id": "colors",
     "title": "Colors"
   },

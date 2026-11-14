@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blocked</title>
+  <script type="module" crossorigin src="./assets/index-h0j9h-2n.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DqCQk56e.css">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+</head>
+<body>
+  <main id="app">
+    <div id="view"></div>
+    <div id="hud" hidden>
+      <p id="status"></p>
+      <p id="message"></p>
+      <div id="crosshair"></div>
+      <div id="minebar" hidden><i></i></div>
+      <button id="end-turn" hidden>I'm hidden! (end turn)</button>
+      <button id="give-up" hidden>Give up</button>
+      <p id="hint"></p>
+    </div>
+    <section id="menu" class="panel">
+      <h1>Blocked</h1>
+      <p>Pick a map:</p>
+      <div class="row"><button id="map-plains" class="sel">Plains</button><button id="map-beach">Beach</button></div>
+      <div class="row"><button id="safe-toggle">Safe mode: Off</button></div>
+      <p>How many players?</p>
+      <div class="row">
+        <button id="players-1">1</button><button id="players-2">2</button><button id="players-3">3</button><button id="players-4">4</button><button id="players-5">5</button>
+      </div>
+    </section>
+    <section id="seeker-pick" class="panel" hidden>
+      <h2>Who wants to be the seeker?</h2>
+      <div class="row" id="seeker-buttons"></div>
+    </section>
+    <section id="block-pick" class="panel" hidden>
+      <h2 id="pick-title"></h2>
+      <div class="row" id="block-buttons"></div>
+    </section>
+    <section id="powerup-pick" class="panel" hidden>
+      <h2>Seeker: pick a power-up</h2>
+      <div class="row"><button id="powerup-firework">🎆 Firework<br><small>Everyone within 10 blocks glows forever. Press G. 1 use.</small></button><button id="powerup-drill">⛏️ Drill<br><small>Hold G: mines a 3 x 3 x 3 cube in 1 second. Unlimited.</small></button><button id="powerup-elytra">🪽 Elytra<br><small>Press Space in the air to jump again and again, up to 30 blocks high.</small></button><button id="powerup-tnt">💥 TNT<br><small>Press G to place TNT. It blows up in 5 seconds and breaks a 7 x 7 x 7 cube. 3 uses.</small></button></div>
+    </section>
+    <section id="cover" hidden><button id="cover-btn"></button></section>
+    <section id="over" class="panel" hidden>
+      <h2 id="over-title"></h2>
+      <p id="over-text"></p>
+      <button id="again">Play again</button>
+    </section>
+  </main>
+</body>
+</html>
