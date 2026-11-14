@@ -1,26 +1,32 @@
 [
   {
     "id": "ant-sized-smoothie-maker",
-    "title": "Ant-Sized Smoothie Maker"
+    "title": "Ant-Sized Smoothie Maker",
+    "blurb": "You're an ant, and you're hungry! Drop bug-sized ingredients into the blender, like algae, mushrooms, clover leaves, aphid honeydew, stinkbug gas sacs and acorn bits, then drink your creation. Every smoothie has a silly effect: mite fuzz makes you float, pebbles make you super heavy, and the effects wear off after a few seconds."
   },
   {
     "id": "avatar-smash",
-    "title": "Avatar Smash"
+    "title": "Avatar Smash",
+    "blurb": "A Super Smash Bros.-style brawl with characters from Avatar! Pick from 17 fighters, like Aang, Katara, Zuko, Toph, Korra and Bumi, and knock your opponent off the stage. The more you get hit, the farther you fly! Play against a friend, or against the computer at 5 difficulty levels (or watch two computers fight). Fight on six stages, from the Ice Stage to the Dark Spirit World, with allies cheering you on."
   },
   {
     "id": "blocked",
-    "title": "Blocked"
+    "title": "Blocked",
+    "blurb": "Hide and seek where everyone is a block! Hide as a grass block, an oak log, a stone, a sand dollar, or even a flat white carpet, then try not to get mined by the seeker's pickaxe. The seeker picks a power-up: the Firework that makes hiders glow, the 3x3x3 Drill, the Elytra to jump in the air, or TNT. Play 1 to 5 players on one computer on the Plains or the Beach, where a shark swims in the sea (or turn on Safe mode for a friendly fish)."
   },
   {
     "id": "colors",
-    "title": "Colors"
+    "title": "Colors",
+    "blurb": "A calm wall of colorful circles, and no two are the same. Hover over a circle to find out its funny name, like \"Bright Orange\". It doesn't move or shuffle. It's just colors for you to look at."
   },
   {
     "id": "four-games",
-    "title": "Four Games"
+    "title": "Four Games",
+    "blurb": "Four games in one! Defend your cake from ants in Tower Defense, steer a shopping cart down a hill in Racing (watch out for bananas!), click the potato in Clicker, and punch it out as a robot on a roof in Fighting."
   },
   {
     "id": "medieval-packs",
-    "title": "Packs"
+    "title": "Packs",
+    "blurb": "Open packs like in Blooket! Open 12 packs full of drawn characters, from the Medieval Pack (witch, dragon, unicorn) to Wonderland, Space, Pirates, Dinosaurs and Bugs. Every pack has its own chances, so rare ones are hard to get. Then go to the Sandbox: put your characters on a background (a pool, a pirate ship, Wonderland...), move them around, make them bigger or smaller, and add speech bubbles."
   }
 ]
